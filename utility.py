@@ -8,9 +8,8 @@ import gc
 import re
 
 
-################
+
 # File Reading #
-################
 
 def read_config_file(filepath):
     with open(filepath, 'r') as stream:
